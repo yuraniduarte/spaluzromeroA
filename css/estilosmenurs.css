@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+*{
+	
+	margin: 0;
+	padding: 0; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box; 
+}
+
+.social{
+	position: fixed;
+	left: 0;
+	top: 200px; 
+}
+
+.social ul{
+	list-style: none;
+}
+
+.social ul li a{
+	display: inline-block; 
+	color: #FFFFFF; 
+	background: #000000;  
+	padding: 10px 20px;
+	text-decoration: none; 
+	
+}
+
+.social ul li a:hover{
+	color:#000000;
+	background: #F8F9F9; 
+	padding: 10px 30px; 
+}
+

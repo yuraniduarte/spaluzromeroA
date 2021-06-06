@@ -1,0 +1,166 @@
+@charset "utf-8";
+*{
+	border:0; 
+	padding: 0;
+	margin: 0; 
+}
+
+.contendor{
+	background: #F4CFF3; 
+	height: 700px; 
+	width: 100%; 
+}
+
+.encabezado{
+	background: #F898EE; 
+	height: 20%;
+	text-align: center;  
+	margin: center; 
+	width: 100%;  
+}
+.menubotones{
+	display: block; 
+	height: 8%;
+	position: fixed; 
+	width: 100%; 
+	align-content: center; 
+}
+
+nav{
+	background: #000000;
+	float: right;  
+	margin: auto; 
+	overflow: hidden; 
+}
+nav ul li{
+	list-style-type: none; 
+	text-decoration: none;
+	float: left; 
+
+}
+
+.listanav a{
+	float: left;
+	background-color:  #533150; 
+	color: white; 
+	text-align: center; 
+	padding: 14px 16px; 
+	text-decoration: none; 
+	font-size: 17px; 
+}
+.listanav a:hover{
+	background: #FBEEEE;
+	color: black; 
+}
+
+.divisioncol{
+	 background: #FFFFFF; 
+	height: 60%; 
+	float: inherit; 
+	padding: 50px 10px 10px 10px; 
+	margin: auto; 
+	display: flex; 
+	text-align: center;
+	align-content: center; 
+}
+
+.columna1{
+	background: #F4AEE0; 
+	height: 100%; 
+	width: 50%;
+	margin: auto; 
+}
+.columna1 parrafo{
+	text-align: justify; 
+}
+.columna1 img{
+	height: 80%; 
+	width: 40%;
+	float: left; 
+	display: inline; 
+	margin-right: 20px; 
+}
+
+.columna2{
+	background: #F4AEE0; 
+	height: 100%;
+	width: 50%;
+	float: left; 
+	margin: auto;  
+}
+
+.piedepag{
+	background:#533150; 
+	color: aliceblue;
+	height: 12%; 
+	width: 100%; 
+}
+.piedepag p{
+	text-align: center; 
+	font-style: italic; 
+	font-style: oblique; 
+}
+
+.formulario{
+	background:#F898EE; 
+	border-radius: 5px; 
+	border-style: solid; 
+	border-color: chartreuse;
+	padding: 30px 10px 10px 10px; 
+	margin: auto; 
+	align-content: center; 
+	width: 65%; 
+}
+
+label{
+	display: block; 
+	float: center;
+}
+
+input{
+	height: 30px;
+	width: 400px;
+	border-radius:5px;
+	border-width: 1px; 
+}
+
+textarea{
+	height: 50px; 
+	width: 400px; 
+}
+
+button{
+	background: #5570F0;
+	color: white; 
+	height: 30px; 
+	text-transform: uppercase; 
+	border-style: solid; 
+	border-radius: 10px; 
+	width: 400px; 
+	cursor: pointer; 
+}
+
+button p{
+	color: darkturquoise; 
+}
+
+.columna1 p{
+	text-align: center; 
+}
+
+.parfservicios{
+	text-align: justify; 
+}
+
+.pantalla{
+	align-content: center;
+	padding: 10px 10px 10px 10px; 
+	width: 100%; 
+	margin: auto; 
+	max-width: 400px; 
+}
+
+.pantalla img{
+	height: 100%;
+	width: 100%; 
+}
